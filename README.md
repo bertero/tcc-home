@@ -5,8 +5,8 @@ O projeto consiste em um sistema de pagamentos que vem ao mercado para concorrer
 O pagamento funciona conforme ilustrado pela Figura 1, o pagador coloca o valor a ser pago no seu aplicativo, gera um código QR, o recebedor escaneia, confirma e fim!
 
 <div style="text-align:center">
-  <img width="400px" src ="/images/pagamento.png" />
   <p>Figura 1 - Sequência lógica de pagamento.</p>
+  <img width="400px" src ="/images/pagamento.png" />
 </div>
 
 ## ESPECIFICAÇÃO ARQUITETURAL
@@ -14,16 +14,16 @@ Para que fosse possível nortear a implementação do sistema, realizou-se a abs
 A estrutura do sistema está ilustrada na Figura 2, com um servidor central, que se comunica com o banco de dados e os aplicativos de pagamento e recebimento.
 
 <div style="text-align:center">
-  <img width="300px" src ="/images/arquitetura.png" />
   <p>Figura 2 - Estrutura alto nível do sistema.</p>
+  <img width="300px" src ="/images/arquitetura.png" />
 </div>
 
 ## ESPECIFICAÇÃO DE SEGURANÇA
 O aspecto de principal valor gerado no projeto é a segurança, que é também o requisito mais crítico do sistema. A partir deste fato, foram definidos os principais objetivos que devem ser cumpridos: confidencialidade e integridade dos dados transacionados entre as partes do sistema e autenticidade do usuário durante um pagamento. Para se cumprir o primeiro, aplicou-se uma camada extra de criptografia além do TLS do HTTPS, assim como representa a Figura 3. Para o segundo, foi implementada uma assinatura digital que utiliza um algoritmo de criptografia assimétrico.
 
 <div style="text-align:center">
-  <img src ="/images/seguranca.png" />
   <p>Figura 3 - Fluxo de criptografia dos dados no sentido cliente-servidor (I) e servidor-cliente (II).</p>
+  <img src ="/images/seguranca.png" />
 </div>
 
 ## IMPLEMENTAÇÃO
@@ -31,18 +31,18 @@ Como forma de cumprir outro importante requisito do sistema, o de disponibilidad
 Os usuários tem acesso a três possíveis interfaces com o produto: aplicativos de pagamento e recebimento (Figura 5) e painel de controle (Figura 6).
 
 <div style="text-align:center">
-  <img width="700px" src ="/images/implementacao.png" />
   <p>Figura 4 - Implementação final do sistema.</p>
+  <img width="700px" src ="/images/implementacao.png" />
 </div>
 
 <div style="text-align:center">
-  <img width="700px" src ="/images/apps.png" />
   <p>Figura 5 - Aplicativos de pagamento (à esquerda) e de recebimento (à direita).</p>
+  <img width="700px" src ="/images/apps.png" />
 </div>
 
 <div style="text-align:center">
-  <img width="700px" src ="/images/extrato.png" />
   <p>Figura 6 - Tela de extrato do painel de controle.</p>
+  <img width="700px" src ="/images/extrato.png" />
 </div>
 
 ## DETALHES
