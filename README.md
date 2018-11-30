@@ -7,7 +7,7 @@ O pagamento funciona conforme ilustrado pela Figura 1, o pagador coloca o valor 
 <div style="text-align:center">
   <p>Figura 1 - Sequência lógica de pagamento.</p>
   <!-- <img width="400px" src ="https://www.dropbox.com/s/x2dw4syzljf5epc/pagamento.png?dl=0" /> -->
-  <img width="400px" src ="/images/pagamento.png" />
+  <img width="400px" src ="https://i.imgur.com/AnCeBYR.png" />
 </div>
 
 ## ESPECIFICAÇÃO ARQUITETURAL
