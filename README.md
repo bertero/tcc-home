@@ -6,7 +6,8 @@ O pagamento funciona conforme ilustrado pela Figura 1, o pagador coloca o valor 
 
 <div style="text-align:center">
   <p>Figura 1 - Sequência lógica de pagamento.</p>
-  <img width="400px" src ="https://www.dropbox.com/s/x2dw4syzljf5epc/pagamento.png?dl=0" />
+  <!-- <img width="400px" src ="https://www.dropbox.com/s/x2dw4syzljf5epc/pagamento.png?dl=0" /> -->
+  <img width="400px" src ="https://i.imgur.com/AnCeBYR.png" />
 </div>
 
 ## ESPECIFICAÇÃO ARQUITETURAL
@@ -15,7 +16,8 @@ A estrutura do sistema está ilustrada na Figura 2, com um servidor central, que
 
 <div style="text-align:center">
   <p>Figura 2 - Estrutura alto nível do sistema.</p>
-  <img width="300px" src ="https://www.dropbox.com/s/qt6dqpnotii7dm4/arquitetura.png?dl=0" />
+  <!-- <img width="300px" src ="https://www.dropbox.com/s/qt6dqpnotii7dm4/arquitetura.png?dl=0" /> -->
+  <img width="300px" src ="https://i.imgur.com/npxip5t.png" />
 </div>
 
 ## ESPECIFICAÇÃO DE SEGURANÇA
@@ -23,7 +25,8 @@ O aspecto de principal valor gerado no projeto é a segurança, que é também o
 
 <div style="text-align:center">
   <p>Figura 3 - Fluxo de criptografia dos dados no sentido cliente-servidor (I) e servidor-cliente (II).</p>
-  <img src ="https://www.dropbox.com/s/4gboifbphkc5s4t/seguranca.png?dl=0" />
+  <!-- <img src ="https://www.dropbox.com/s/4gboifbphkc5s4t/seguranca.png?dl=0" /> -->
+  <img src ="https://i.imgur.com/EKYtLmT.png" />
 </div>
 
 ## IMPLEMENTAÇÃO
@@ -32,17 +35,20 @@ Os usuários tem acesso a três possíveis interfaces com o produto: aplicativos
 
 <div style="text-align:center">
   <p>Figura 4 - Implementação final do sistema.</p>
-  <img width="700px" src ="https://www.dropbox.com/s/1nqe88fxzwfdn63/implementacao.png?dl=0" />
+  <!-- <img width="700px" src ="https://www.dropbox.com/s/1nqe88fxzwfdn63/implementacao.png?dl=0" /> -->
+  <img width="700px" src ="https://i.imgur.com/pARZX3H.png" />
 </div>
 
 <div style="text-align:center">
   <p>Figura 5 - Aplicativos de pagamento (à esquerda) e de recebimento (à direita).</p>
-  <img width="700px" src ="https://www.dropbox.com/s/dwjmeehve8t8kzc/apps.png?dl=0" />
+  <!-- <img width="700px" src ="https://www.dropbox.com/s/dwjmeehve8t8kzc/apps.png?dl=0" /> -->
+  <img width="700px" src ="https://i.imgur.com/9FaGYbD.png" />
 </div>
 
 <div style="text-align:center">
   <p>Figura 6 - Tela de extrato do painel de controle.</p>
-  <img width="700px" src ="https://www.dropbox.com/s/9orc4lv1gl60noc/extrato.png?dl=0" />
+  <!-- <img width="700px" src ="https://www.dropbox.com/s/9orc4lv1gl60noc/extrato.png?dl=0" /> -->
+  <img width="700px" src ="https://i.imgur.com/GeYiLrQ.png" />
 </div>
 
 ## DETALHES
